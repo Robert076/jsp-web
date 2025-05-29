@@ -4,9 +4,9 @@
 <html>
 <head>
     <title>My URLs</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
 </head>
-<body class="bg-light">
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom mb-4">
     <div class="container">
         <a class="navbar-brand" href="${pageContext.request.contextPath}/urls">URL Manager</a>
@@ -56,7 +56,6 @@
                     <th>Title</th>
                     <th>URL</th>
                     <th>Description</th>
-                    <th>Visits</th>
                     <c:if test="${empty isPopular}"><th>Actions</th></c:if>
                 </tr>
                 </thead>
@@ -66,7 +65,6 @@
                         <td>${url.title}</td>
                         <td><a href="${url.url}" target="_blank">${url.url}</a></td>
                         <td>${url.description}</td>
-                        <td>${url.visitCount}</td>
                         <c:if test="${empty isPopular}">
                             <td>
                                 <a href="${pageContext.request.contextPath}/urls/edit/${url.id}" class="btn btn-sm btn-primary">Edit</a>

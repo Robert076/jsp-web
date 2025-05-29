@@ -118,18 +118,6 @@ public class UrlDAO {
         }
     }
     
-    public void incrementVisitCount(Long id) throws SQLException {
-        String sql = "UPDATE urls SET visit_count = visit_count + 1 WHERE id = ?";
-        
-        try (Connection conn = DatabaseUtil.getConnection();
-             PreparedStatement stmt = conn.prepareStatement(sql)) {
-            
-            stmt.setLong(1, id);
-            
-            stmt.executeUpdate();
-        }
-    }
-    
     private Url mapResultSetToUrl(ResultSet rs) throws SQLException {
         Url url = new Url();
         url.setId(rs.getLong("id"));
