@@ -1,0 +1,12 @@
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/servlet/LoginServlet.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/dao/UrlDAO.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/model/Session.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/model/User.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/util/DatabaseUtil.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/model/Url.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/filter/AuthenticationFilter.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/servlet/UrlServlet.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/servlet/RegisterServlet.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/dao/UserDAO.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/servlet/LogoutServlet.java
+/Users/robert/UBB/jsp-web/src/main/java/com/urlmanager/dao/SessionDAO.java
